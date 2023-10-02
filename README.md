@@ -13,7 +13,9 @@ This is the official repository for [Image-free Classifier Injection for Zero-Sh
 Questions etc. can be sent by email to
 
 Anders Christensen
+
 andchri@dtu.dk
+
 Technical University of Denmark & University of Tübingen
 
 <p align="center">
