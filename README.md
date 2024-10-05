@@ -9,7 +9,7 @@ This is the official repository for [Image-free Classifier Injection for Zero-Sh
 
 ## Prerequisites
 
-1. Extracted fine-tuned CUB, AWA2, and SUN features are available [here](https://github.com/uqzhichen/SDGZSL) (clicking on "datasets" under the "Usage" section will lead you to [this zip file on Google Drive](https://drive.google.com/file/d/1KxFC6T_kGKCNx1JyX2FOaSimA0DOcU_I/view) (features are originally from [this paper](https://github.com/akshitac8/tfvaegan)). 
+1. Extracted fine-tuned CUB, AWA2, and SUN features are available [here](https://github.com/uqzhichen/SDGZSL) (clicking on "datasets" under the "Usage" section will lead you to [this zip file on Google Drive](https://drive.google.com/file/d/1KxFC6T_kGKCNx1JyX2FOaSimA0DOcU_I/view)) Features are originally from [this paper](https://github.com/akshitac8/tfvaegan). 
 
 2. Pre-trained ResNet101 features for CUB, AWA2, and SUN datasets are available [here](https://drive.google.com/drive/folders/18egafUzqWp7kavtBSk78O0R2L1mx0dLX?usp=sharing). We extract the features using the current version (2) of ResNet101 available via `torchvision`. See `/utility/feature_extraction/feature_extract.py`. We use the [proposed datasplits](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/zero-shot-learning/zero-shot-learning-the-good-the-bad-and-the-ugly) ("Proposed Split Version 2.0"). Image datasets are avaiable here for [CUB](https://www.vision.caltech.edu/datasets/cub_200_2011/), [AWA2](https://cvml.ista.ac.at/AwA2/), and [SUN](https://groups.csail.mit.edu/vision/SUN/hierarchy.html).
 
